@@ -1,10 +1,11 @@
+.navbar,
 .navbar-light{
-    background-color: #98F527;
+    background-color: #53b67e;
 }
 .band-1{
     background-color: black;
     color: white;
 }
 .navbar-toggler-icon {
-   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+   background-image: url("data:image/svg+xml,%3csvg xmlns='https://www.edx.org/_next/image?url=https%3A%2F%2Fprod-discovery.edx-cdn.org%2Fmedia%2Fprograms%2Fcard_images%2Fa0247cd3-f25d-4aee-9b87-f0b5993c9bda-43eeae96f80e.png&w=640&q=75' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
