@@ -35,18 +35,18 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#FAQ">FAQ</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#video">Video</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- HERO SECTION-->
-        <div class="px-4 py-5 mb-5 text-center bg-green hero">
+        <div class="px-4 py-5 text-center bg-green hero">
             <h1 class="display-5 fw-bold">Software Development Success</h1>
             <div class="col-lg-6 mx-auto">
                 <p class="lead mb-4">When it comes to software projects, have you ever wondered why some of them fail while others succeed? You would think that these projects which all have essentially the same process would turn out the same, but many factors can determine the fate of such projects.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-                </div>
             </div>
         </div>
         <!-- THREE COLUMNS -->
@@ -69,29 +69,69 @@
             </div>
         </div>
         <!-- ABOUT SECTION -->
-        <div class="band-2 pt-2 #about">
+        <div class="band-2 pt-2" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col hp1">
                         <h1 class="hn1">About</h1>
                         <p>I set out to figure out why certain software development projects fail while others succeed. To which I found only one answer, it relies entirely on the human element rather than anything technology based. Things such as communication, budget, and workload can make or break a project. Not to mention that in our time with the rise of AI, it can be easy to forget how important human ingenuity and creativity are.</p>
                     </div>
-                    <div class="col">
-                        <img src="img/Software-vs-Web-Dev-Blog-Image.jpg"
+                    <div class="col img1">
+                        <img src="img/Software-vs-Web-Dev-Blog-Image.jpg" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
         <!-- SLIDES SECTION -->
-        <div class="container secslide bg-dark">
-            <div class="row">
-                <div class="col">
-                    <h1>Slides</h1>
-                    <p>I made a slides presentation presenting these ideas in greater detail.</p>
+        <div class="bg-dark text-white">
+            <div class="container secslide" id="slides">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="sld">Slides</h1>
+                        <p class="sldp">I made a slides presentation presenting these ideas in greater detail.</p>
+                    </div>
+                    <div class="col">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRLzWSfHBBM6OAQD41gPbt_VVaIsdoZmKZaBRHt2cULiZNsXwzD1k_PPZwPa3z3SeGej0h9LKq2eitH/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
                 </div>
-                <div class="col">
-
+            </div>
+        </div>
+        <!-- VIDEO SECTION -->
+        <div class="vd" id="video">
+            <div class="container vid">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/446cZSgSjTk?si=soqxsKCDXFnTOCw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- CAROUSEL SECTION -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/coding1(2).jpg" class="d-block w-75 img-fluid" alt="...">
                 </div>
+                <div class="carousel-item">
+                    <img src="img/coding2(2).jpg" class="d-block w-75 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/coding3(2).jpg" class="d-block w-75 img-fluid" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- FAQ SECTION -->
+        <div id="FAQ" class="Qs">
+            <h1>FAQs</h1>
+            <div class=".list-group-numbered">
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">What can humans do in coding that ai can't?: Well in terms of literal coding nothing, but our mindset and unique perspective as humans leads us to be better for such projects, having the user in mind</li>
+                    <li class="list-group-item">How much does budget really make a difference?: You'd be surprised, the tools that you can afford when doing coding projects make an incredible difference</li>
+                </ol> 
             </div>
         </div>
     </body>

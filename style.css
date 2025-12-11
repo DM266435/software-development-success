@@ -9,21 +9,48 @@
    background-image: url("data:image/svg+xml,%3csvg xmlns='https://www.edx.org/_next/image?url=https%3A%2F%2Fprod-discovery.edx-cdn.org%2Fmedia%2Fprograms%2Fcard_images%2Fa0247cd3-f25d-4aee-9b87-f0b5993c9bda-43eeae96f80e.png&w=640&q=75' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 .sec1{
-    height: 330px;
     margin-top: 0;
-    position: relative;
-    top: -48px;
 }
 .hp1{
     font-size: 25px;
 }
 .hn1{
     font-size: 50px;
+    margin-top: 50px;
 }
 .hero{
     margin-bottom: 0;
 }
-.secslide{
-    margin-top: 0;
-    width: 100%;
+.img1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sld{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.sldp{
+    font-size: 25px;
+}
+.vd{
+    background-color: rgba(83, 182, 126, 0.5); /* Red with 50% opacity */
+    text-align: center;
+}
+.vid{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.carousel{
+    background-color: black;
+}
+.carousel-item{
+    text-align: center;
+    margin-left: 200px;
+}
+.Qs{
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: rgba(83, 182, 126, 0.5); /* Red with 50% opacity */
+    margin-right: 100px;
+    margin-bottom: 50px;
 }
